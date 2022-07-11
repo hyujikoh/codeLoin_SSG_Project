@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class App {
         public void run() {
-            List<StringBuffer> result = new ArrayList<>();
+            List<WiseSaying> result = new ArrayList<>();
 
             System.out.println("== 명언 SSG ==");
 
@@ -21,18 +21,45 @@ public class App {
                     case "종료":
                         break outer;
                     case "등록":
-                        StringBuffer sb = new StringBuffer();
                         System.out.printf("명언) ");
                         String content = sc.nextLine().trim();
-                       sb.append("명언"+" :"+ content+ "\n");
+
                         System.out.printf("작가) ");
                         String author = sc.nextLine().trim();
-                        sb.append("작가"+" :"+ author+ "\n");
+
                         System.out.println(i+"번 게시물이 등록되었다");
-                        i++;
+
 
                         WiseSaying wiseSaying = new WiseSaying(i,content,author);
-                        System.out.println(wiseSaying);
+                        result.add(wiseSaying);
+                        System.out.print(result);
+                        i++;
+                        continue ;
+                    case "조회":
+                        System.out.printf("번호) ");
+                        int index = sc.nextInt();
+                        //result.get(Integer.parseInt(index));
+                        System.out.println(result.get(index-1));
+                        //i++;
+                        continue ;
+                    case "수정":
+
+                    case "목록":
+                        System.out.println("번호 / 작가 / 명언");
+                        System.out.println("----------------------");
+                        for (int ia = result.size() - 1; ia >= 0; ia--){
+                           WiseSaying wiseSaying_ = result.get(ia);
+                            System.out.printf("%d / %s / %s\n", wiseSaying_.id, wiseSaying_.content, wiseSaying_.author);
+
+                        }
+
+//                        System.out.printf("번호) ");
+//                        int index = sc.nextInt();
+//
+//                        //result.get(Integer.parseInt(index));
+//                        System.out.println(result.get(index-1));
+//                        //i++;
+//                        continue ;
                 }
             }
 

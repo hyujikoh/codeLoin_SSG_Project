@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa804aba-c288-49f9-ae92-2998eaea7c64" name="Changes" comment="gitignore 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSaying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ssg_project_2/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSaying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ssg_project_2/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ssg_project_2/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,8 +55,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.ssg_project_2" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dvum0\eclipse-workspace\ssg_project_2\src\test\java" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ssg_project_2.main" />
       <module name="ssg_project_2" />
@@ -60,9 +67,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssg_project_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssg_project_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ssg_project_2" />
+      <option name="MAIN_CLASS_NAME" value="ssg_project_2.AppTest" />
+      <option name="METHOD_NAME" value="테스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.AppTest.테스트" />
       </list>
     </recent_temporary>
   </component>
@@ -74,7 +98,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657172182493</updated>
-      <workItem from="1657172183944" duration="5588000" />
+      <workItem from="1657172183944" duration="7066000" />
+      <workItem from="1657201568769" duration="614000" />
+      <workItem from="1657254417494" duration="5516000" />
+      <workItem from="1657431160495" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore 수정">
       <created>1657173952928</created>
