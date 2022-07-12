@@ -52,6 +52,24 @@ public class App{
 
     private void build(Rq rq) {
         System.out.println(wiseSayings);
+        //메모장에 작성
+        int count=0;
+
+        try {
+
+            FileWriter fw=new FileWriter("C:/Users/dvum0/Desktop/data.txt",false);
+            fw.close();
+            for (int i = wiseSayings.size() - 1; i >= 0; i--) {
+                WiseSaying wiseSaying_ = wiseSayings.get(i);
+                fw.write(wiseSaying_.toString());
+            }
+            fw.close();
+
+        } catch (Exception e) {
+            System.out.println("에러");
+        }
+
+        System.out.println("입력끝");
 
     }
 
