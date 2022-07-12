@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa804aba-c288-49f9-ae92-2998eaea7c64" name="Changes" comment="코드 수정 업데이트">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSayingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSayingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSaying.java" afterDir="false" />
+    <list default="true" id="aa804aba-c288-49f9-ae92-2998eaea7c64" name="Changes" comment="controller , repository 분리">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/Rq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/Rq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSayingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSayingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSayingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSayingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ssg_project_2/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ssg_project_2/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +103,7 @@
       <workItem from="1657254417494" duration="5516000" />
       <workItem from="1657431160495" duration="616000" />
       <workItem from="1657515837325" duration="5587000" />
-      <workItem from="1657591784313" duration="9054000" />
+      <workItem from="1657591784313" duration="10535000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore 수정">
       <created>1657173952928</created>
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657606162945</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="controller , repository 분리">
+      <created>1657606766947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657606766947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,22 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore 수정" />
     <MESSAGE value="코드 수정 업데이트" />
-    <option name="LAST_COMMIT_MESSAGE" value="코드 수정 업데이트" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/App.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/App.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="controller , repository 분리" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller , repository 분리" />
   </component>
 </project>

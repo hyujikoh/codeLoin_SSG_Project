@@ -12,9 +12,9 @@ public class Rq {
         this.url = url;
         String[] urlBits = url.split("\\?", 2);
         this.path = urlBits[0];
-        String querystr = "search?q=라면&oq=라면&aqs=chrome.0.0i355i433i512j46i433i512j0i3j0i131i433i512j0i3l2j0i512j0i3j0i512l2.750j0j7&sourceid=chrome&ie=UTF-8";
-        String[] querystrbit = querystr.split("&");
-        System.out.println(querystrbit[0]);
+//        String querystr = "search?q=라면&oq=라면&aqs=chrome.0.0i355i433i512j46i433i512j0i3j0i131i433i512j0i3l2j0i512j0i3j0i512l2.750j0j7&sourceid=chrome&ie=UTF-8";
+//        String[] querystrbit = querystr.split("&");
+//        System.out.println(querystrbit[0]);
         queryParams = new HashMap<>();
 
         if (urlBits.length == 2) {
