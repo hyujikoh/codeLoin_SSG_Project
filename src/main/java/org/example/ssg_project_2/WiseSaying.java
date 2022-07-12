@@ -1,14 +1,15 @@
 package org.example.ssg_project_2;
 
+import org.example.ssg_project_2.Rq;
 public class WiseSaying {
     int id;
     String content;
     String author;
 
     public WiseSaying(int id, String content, String author) {
-        this.id=id;
+        this.id = id;
         this.content = content;
-        this.author=author;
+        this.author = author;
     }
 
     @Override

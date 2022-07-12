@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa804aba-c288-49f9-ae92-2998eaea7c64" name="Changes" comment="코드 수정 업데이트">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ssg_project_2/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ssg_project_2/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ssg_project_2/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ssg_project_2/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSayingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSayingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ssg_project_2/WiseSaying.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
       <workItem from="1657254417494" duration="5516000" />
       <workItem from="1657431160495" duration="616000" />
       <workItem from="1657515837325" duration="5587000" />
-      <workItem from="1657591784313" duration="8733000" />
+      <workItem from="1657591784313" duration="9054000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore 수정">
       <created>1657173952928</created>
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657602670673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="코드 수정 업데이트">
+      <created>1657606162945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657606162945</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
