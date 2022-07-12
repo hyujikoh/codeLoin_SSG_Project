@@ -35,12 +35,21 @@ public class App_from_Teacher {
                 case "목록":
                     list(rq);
                     break;
+                case "수정":
+                    update(rq);
+                    break;
+                case "빌드":
+                    build(rq);
+                    break;
                 case "종료":
                     break outer;
             }
         }
 
         sc.close();
+    }
+
+    private void build(Rq rq) {
     }
 
     private void list(Rq rq) {
@@ -63,6 +72,32 @@ public class App_from_Teacher {
         wiseSayings.add(wiseSaying);
 
         System.out.printf("%d번 명언이 등록되었습니다.\n", id);
+    }
+    private void update(Rq rq) {
+        // URL에 입력된 id 얻기
+        int paramId = rq.getIntParam("id", 0);
+
+        // URL에 입력된 id가 없다면 작업중지
+        if (paramId == 0) {
+            System.out.println("id를 입력해주세요.");
+            return;
+        }
+
+        // URL에 입력된 id에 해당하는 명언객체 찾기
+        WiseSaying foundWiseSaying = findById(paramId);
+
+        // 찾지 못했다면 중지
+        if (foundWiseSaying == null) {
+            System.out.printf("%d번 명언은 존재하지 않습니다.\n", paramId);
+            return;
+        }
+
+        // 입력된 id에 해당하는 명언객체를 리스트에서 수정
+        System.out.println("수정할 내용");
+        String update_content = sc.nextLine().trim();
+        foundWiseSaying.content=update_content;
+        System.out.println(foundWiseSaying);
+        System.out.printf("%d번 명언이 수정되었습니다.\n", paramId);
     }
 
     private void remove(Rq rq) {
